@@ -1,0 +1,21 @@
+.edit-component h2 {
+    color: #9645ff;
+}
+
+.edit-component h3 {
+    color: #9645ff;
+}
+
+.edit-form {
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid black;
+    width: 200px;
+    padding: 5px 0px 10px 10px;
+}
+
+.edit-form button {
+    color: white;
+    background-color: #66bbff;
+    margin: 10px 0px 0px 5px;
+}
