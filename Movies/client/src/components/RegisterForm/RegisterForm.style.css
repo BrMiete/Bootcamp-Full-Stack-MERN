@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.register {
+    width: 384px;
+    margin: 0 auto;
+}
+
+.register-title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register-btn {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.register-form label {
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.register-firstName-input {
+    margin-left: 62px;
+}
+
+.register-lastName-input {
+    margin-left: 63px;
+}
+
+.register-email-input {
+    margin-left: 100px;
+}
+
+.register-password-input {
+    margin-left: 70px;
+}
+
+.register-password2-input {
+    margin-left: 10px;
+}
+
+.register-firstName-div {
+    margin-top: 10px;
+}
+.register-lastName-div {
+    margin-top: 10px;
+}
+.register-email-div {
+    margin-top: 10px;
+}
+.register-password-div {
+    margin-top: 10px;
+}
+.register-password2-div {
+    margin-top: 10px;
+}
+
+.errors {
+    color: #cc0000;
+    font-weight: bold;
+}

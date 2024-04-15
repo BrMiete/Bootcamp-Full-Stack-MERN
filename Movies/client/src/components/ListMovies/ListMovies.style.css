@@ -1,0 +1,108 @@
+.list-component {
+    margin: 0 auto;
+    text-align: center;
+    outline: dashed black;
+    border-radius: 10px;
+    width: 700px;
+}
+
+.list-table {
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    width: 600px;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+}
+
+thead, tfoot {
+    background-color: rgb(228 240 245);
+}
+
+th, td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    font-weight: bolder;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+}
+
+tbody > tr:nth-of-type(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+tbody tr th {
+    color: black;
+    text-align: left;
+}
+
+.read-btn {
+    background-color: #b6d7a8;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.write-btn {
+    background-color: #6aa84f;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.title {
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title h2 {
+    color: black;
+}
+
+.create-btn {
+    background-color: #9fc5f8;
+    color: black;
+    font-weight: bold;
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.list-actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.table-titles {
+    font-weight: bold;
+}
+
+.errors {
+    color: #cc0000;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-bottom:10px
+}

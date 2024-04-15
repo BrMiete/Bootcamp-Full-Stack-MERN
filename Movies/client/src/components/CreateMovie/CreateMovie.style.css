@@ -1,0 +1,84 @@
+.create-component {
+    margin: 0 auto;
+    text-align: center;
+    outline: dashed black;
+    border-radius: 10px;
+    width: 700px;
+    padding-bottom: 20px;
+}
+
+.title {
+    text-align: left;
+}
+
+.create-form {
+    text-align: left;
+    margin-left: 80px;
+}
+
+.errors {
+    color: #cc0000;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.create-actions {
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+
+.create-submit {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px;
+}
+
+.create-cancel {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px;
+}
+
+.movie-title {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.movie-title input {
+    margin-left: 28px;
+}
+
+.create-name {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.create-name input {
+    margin-left: 28px;
+}
+
+.create-rating {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.create-rating input {
+    margin-left: 62px;
+}
+
+.create-review {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.create-review textarea {
+    margin-left: 20px;
+}
